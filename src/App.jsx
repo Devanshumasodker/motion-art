@@ -62,7 +62,7 @@ function App() {
         }}
       ></canvas>
 
-      <div className='relative'> {/* Change from absolute to relative */}
+      <div className='main absolute pointer-events-none'> {/* Change from absolute to relative */}
         <Navbar />
         <Hero />
         <Ratings />
